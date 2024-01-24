@@ -68,11 +68,11 @@ const Project = () => {
                 <ul className='list'>
                     {userProjects.map((data) => (
                         <div key={data.id} className='list-card'>
-                            <h3>{data.title}</h3>
-                            <p>{data.details}</p>
-                            <p>{data.url}</p>
-                            <p>Submitted By: <b>{data.devName}</b></p>
-                        </div>
+                        <h3>{data.title}</h3>
+                        <p><b>Details:</b> {data.details}</p>
+                        <p><b>Url:</b> {data.url}</p>
+                        <p>Submitted By: <b>{data.devName}</b></p>
+                      </div>
                     ))}
                 </ul>
             )}

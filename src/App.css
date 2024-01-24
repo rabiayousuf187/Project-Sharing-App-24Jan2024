@@ -789,7 +789,7 @@ button#publish {
 }
 .footer.auth-footer {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   padding: 7px 0px;
 }
 .css-d9ml5t-MuiDrawer-docked .MuiDrawer-paper {
@@ -813,4 +813,25 @@ h1.sub-Heading {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+ul.list {
+  width: 80%;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+.list-card {
+  text-wrap: wrap;
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid green;
+  border-radius: 6px;
+  padding: 15px 20px;
+  box-shadow: 3px 4px 5px 0px darkgreen;
+}
+.list-card h3 {
+  border-bottom: 1px solid gainsboro;
+  margin-bottom: 15px;
+}
+.list-card p{
+  word-wrap: break-word;
 }
