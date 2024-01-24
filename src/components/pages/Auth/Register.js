@@ -3,9 +3,7 @@ import { Alert, Button, Grid, IconButton, InputAdornment, TextField } from '@mui
 import { useSnackbar } from 'notistack';
 import React, { useEffect, useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-// import AuthService from '../../../services/auth';
 import axios from "axios";
-import BasicSelect from '../../template/BasicSelect';  // Adjust the path
 
 
 const Register = () => {
