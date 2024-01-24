@@ -18,18 +18,8 @@ const Project = () => {
         let user = localStorage.getItem('user');
         console.log("At LOgin - USer status=== ", user)
 
-<<<<<<< HEAD
-        // let { token, user } = JSON.parse(data);
-        // if (!token) {
-        //     console.log("No User Login")
-        //     // navigate(`/login`);
-        // } else {
-        //     // console.log("User Already Loggined")
-        //     // console.log("Post BLog User Token == ", token)
             setToken(token);
 
-=======
->>>>>>> be64a6dd07bc94a2f2b927d06e8c0125b0b79999
             try {
                 axios
                     .get(
@@ -66,14 +56,6 @@ const Project = () => {
                     closeSnackbar();
                 }, 2000);
             }
-<<<<<<< HEAD
-            // setName(user.username);
-            //   setToken(user.user.token)
-            // navigate(`/auth`);
-=======
-            
->>>>>>> be64a6dd07bc94a2f2b927d06e8c0125b0b79999
-        // }
     }, [newProject]);
 
 

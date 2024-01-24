@@ -6,12 +6,6 @@ import DashBoard from "../components/pages/DashBoard/DashBoard";
 import ResponsiveDrawer from "../components/template/ResponsiveDrawer";
 import CreateProject from "../components/pages/Projects/CreateProject";
 import ProjectList from "../components/pages/Projects/ProjectList";
-<<<<<<< HEAD
-// import BlogList from "../components/pages/Blogs/BlogList";
-// import Register from "../components/pages/Auth/Register";
-=======
->>>>>>> be64a6dd07bc94a2f2b927d06e8c0125b0b79999
-
 // This is Array of AuthRoutes
 const AuthRoutes = [   
         <Route key="DashBoard" path="/auth/dashboard" element={<AuthGuard component={<Authlayout component={ <ResponsiveDrawer component={<DashBoard />} ></ResponsiveDrawer>}></Authlayout>} />} />,
