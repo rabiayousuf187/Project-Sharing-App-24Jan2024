@@ -8,13 +8,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // for popup notification
 import { SnackbarProvider } from 'notistack';
 import { Slide } from '@mui/material';
-import { Provider } from 'react-redux';
-import store from './redux/store';
+// import { Provider } from 'react-redux';
+// import store from './redux/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
+    {/* <Provider store={store}> */}
       <SnackbarProvider
         anchorOrigin={{
           vertical: "top",
@@ -25,7 +25,7 @@ root.render(
       >
         <App />
       </SnackbarProvider>
-    </Provider>
+    {/* </Provider> */}
   </React.StrictMode>
 );
 
