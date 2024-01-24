@@ -15,7 +15,7 @@ const UnAuthRoutes = [
   <Route key="Home" path="/" element={<UnAuthGuard component={<Layout component={<Home/>}/>}/>} />,
   <Route key="Login" path="/login" element={<UnAuthGuard component={<Layout component={<Login />} />} />} />,
   <Route key="Register" path="/register" element={<UnAuthGuard component={<Layout component={<Register />}/>}/>} />,
-  <Route key="Projects" path="/projects" element={<UnAuthGuard component={<Layout component={<Projects/>}/>}/>} />,
+  <Route key="Project" path="/projects" element={<UnAuthGuard component={<Layout component={<Projects/>}/>}/>} />,
   <Route key="About" path="/about" element={<UnAuthGuard component={<Layout component={<About/>}/>}/>} />,
   <Route key="Contact" path="/contact" element={<UnAuthGuard component={<Layout component={<Contact/>}/>}/>} />,
 

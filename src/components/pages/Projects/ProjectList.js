@@ -31,7 +31,7 @@ const Project = () => {
       try {
         axios
           .post(
-            `http://localhost:5000/projects/getUserAllBlogs`,{userId: userId},
+            `http://localhost:5000/projects/getUserAllProjects`,{userId: userId},
             {
               headers: {
                 authorization: `Bearer ${token}`,

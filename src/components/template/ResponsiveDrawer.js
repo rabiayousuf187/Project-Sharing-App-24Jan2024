@@ -21,6 +21,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+import avatar from "../../img/dumy_avatar.jpeg"
 
 const drawerWidth = 240;
 
@@ -51,7 +52,7 @@ function ResponsiveDrawer(props) {
                 setUserStatus(false);
             } else {
                 console.log("Side bar User Already Loggined", user, userInfo['username'])
-                setName(userInfo['username']);
+                setName(userInfo['firstName'] + " " + userInfo['lastName']);
                 // console.log("Side bar data == ",user["user"])
                 // navigate(`/`);
                 setUserStatus(true);

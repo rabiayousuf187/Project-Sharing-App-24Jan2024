@@ -7,6 +7,7 @@ import DashBoard from "../components/pages/DashBoard/DashBoard";
 import ResponsiveDrawer from "../components/template/ResponsiveDrawer";
 import CreateProject from "../components/pages/Projects/CreateProject";
 import ProjectList from "../components/pages/Projects/ProjectList";
+// import BlogList from "../components/pages/Blogs/BlogList";
 // import Register from "../components/pages/Auth/Register";
 
 // This is Array of AuthRoutes

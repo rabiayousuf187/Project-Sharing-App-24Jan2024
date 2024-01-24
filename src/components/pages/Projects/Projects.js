@@ -19,12 +19,12 @@ const Project = () => {
         console.log("At LOgin - USer status=== ", user)
 
         // let { token, user } = JSON.parse(data);
-        if (!token) {
-            console.log("No User Login")
-            navigate(`/login`);
-        } else {
-            console.log("User Already Loggined")
-            console.log("Post BLog User Token == ", token)
+        // if (!token) {
+        //     console.log("No User Login")
+        //     // navigate(`/login`);
+        // } else {
+        //     // console.log("User Already Loggined")
+        //     // console.log("Post BLog User Token == ", token)
             setToken(token);
 
             try {
@@ -66,7 +66,7 @@ const Project = () => {
             // setName(user.username);
             //   setToken(user.user.token)
             // navigate(`/auth`);
-        }
+        // }
     }, [newProject]);
 
 

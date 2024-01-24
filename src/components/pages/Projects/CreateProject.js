@@ -35,11 +35,10 @@ const CreateProject = () => {
             console.log("Post BLog User Token == ", token)
             setToken(token);
             setName(user.username);
-              
+            
             let userData = JSON.parse(user);
             console.log('userData["_id"] === ',user,userData["_id"])
             setUserId(userData["_id"]);
-          
             //   setToken(user.user.token)
             // navigate(`/auth`);
         }
@@ -134,8 +133,7 @@ const CreateProject = () => {
                                 closeSnackbar(); // Close the snackbar manually after a duration
                               }, 2000);
 
-                            //   navigate("/auth/dashboard")
-                              navigate("/projects")
+                              
                             //   // 
                             // Push to /
                             // navigate("/");
