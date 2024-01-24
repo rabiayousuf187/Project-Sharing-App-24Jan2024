@@ -15,6 +15,7 @@ const CreateProject = () => {
     const [blogStatus, setBlogStatus] = useState(null);
     const [newBlog, setNewBlog] = useState(false);
     const [token, setToken] = useState(null);
+    const [userId, setUserId] = useState(null);
 
     let navigate = useNavigate();
 
@@ -34,6 +35,10 @@ const CreateProject = () => {
             console.log("Post BLog User Token == ", token)
             setToken(token);
             setName(user.username);
+            
+            let userData = JSON.parse(user);
+            console.log('userData["_id"] === ',user,userData["_id"])
+            setUserId(userData["_id"]);
             //   setToken(user.user.token)
             // navigate(`/auth`);
         }
@@ -53,7 +58,10 @@ const CreateProject = () => {
 
     const [form, setForm] = useState({
         title: "",
-        post: ""
+        details: "",
+        devName: "",
+        url: "",
+        userId: userId
     });
 
     const handleChange = (e) => {
@@ -67,6 +75,13 @@ const CreateProject = () => {
     const submitForm = async (e) => {
         e.preventDefault();
         setProcessing(true);
+        
+        
+        console.log("USER ID +===",userId);
+
+        // Add userId to the form data
+        setForm({ ...form, userId: userId });
+
         console.log("BLog DATA to be Create ==== ", form);
 
         if (form.title && form.devName && form.details && form.url) {

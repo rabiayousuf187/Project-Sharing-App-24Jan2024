@@ -8,7 +8,7 @@ const AuthGuard = ({ component }) => {
 
   useEffect(() => {
     checkToken();
-  }, [component]);
+  });
 
   const checkToken = async () => {
     try {
