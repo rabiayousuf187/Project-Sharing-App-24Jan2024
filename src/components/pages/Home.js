@@ -4,7 +4,6 @@ import CarouselComp from '../template/CarouselComp'
 import Services from '../template/Services'
 import Testimonial from '../template/Testimonial'
 import Mission from '../template/Mission'
-import Blog from '../template/Blog'
 
 const Home = () => {
   return (
