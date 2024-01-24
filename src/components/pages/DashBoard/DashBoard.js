@@ -16,8 +16,8 @@ const DashBoard = () => {
                 {/* <Sidebar></Sidebar> */}
                 <ResponsiveDrawer></ResponsiveDrawer>
                 {/* <h1>DashBoard</h1> */}
-                <CreateProject />
-                <ProjectList />
+                {/* <CreateProject />
+                <ProjectList /> */}
             </Container>
         </>
     )

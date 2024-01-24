@@ -82,12 +82,12 @@ function NavbarComp() {
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
-              />{' '}React-BloggUp</Navbar.Brand>
+              />{' '}Project Sharing App</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link tabIndex={0}><NavLink to="/">Home</NavLink></Nav.Link>
-                {/* <Nav.Link tabIndex={1}><NavLink to="/P">Blogs</NavLink></Nav.Link> */}
+                <Nav.Link tabIndex={1}><NavLink to="/projects">Pprojects</NavLink></Nav.Link>
                 <Nav.Link tabIndex={2}><NavLink to="/contact">Contact</NavLink></Nav.Link>
                 <Nav.Link tabIndex={3}><NavLink to="/about">About</NavLink></Nav.Link>
                 {userStatus ? (console.log("userStatus nav ====", userStatus),

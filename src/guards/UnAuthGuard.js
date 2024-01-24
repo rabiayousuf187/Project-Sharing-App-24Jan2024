@@ -17,7 +17,7 @@ const UnAuthGuard = ({ component }) => {
             if (!user) {
                 localStorage.removeItem("token")
             } else {
-                navigate(`/`);
+                // navigate(`/`);
             }
             setStatus(true);
         } catch (error) {

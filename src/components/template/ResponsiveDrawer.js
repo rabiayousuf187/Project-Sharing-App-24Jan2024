@@ -101,9 +101,9 @@ function ResponsiveDrawer(props) {
                     </NavLink>
                 </ListItemButton>
                 <ListItemButton>
-                    <NavLink to="/auth/listblogs">
+                    <NavLink to="/auth/listproject">
                         <ListItemIcon><ViewListIcon /></ListItemIcon>
-                        <ListItemText primary='List Blogs' />
+                        <ListItemText primary='List Projects' />
                     </NavLink>
                 </ListItemButton>
             </List>
