@@ -10,8 +10,7 @@ const Testimonial = (props) => {
                         <h1>Testimonials</h1>
                     </div>
                     <Carousel className={props.className}>
-                        <Carousel.Item interval={1500}>
-                            {/* <img className="d-block w-100" src={img1} text="First slide" /> */}
+                        <Carousel.Item interval={1500}>}
                             <Carousel.Caption className="ust-item">
                                 <p>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi in officia quidem dolorem unde nemo blanditiis placeat eius quaerat temporibus ducimus necessitatibus, alias labore, magni architecto, cumque exercitationem soluta?&quot;</p>
                                 <div className="test-msg">
@@ -21,7 +20,6 @@ const Testimonial = (props) => {
                                 </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item interval={1000}>
-                            {/* <img className="d-block w-100" src={img1} text="Second slide" /> */}
                             <Carousel.Caption className="ust-item">
                                 <p>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi in officia quidem dolorem unde nemo blanditiis placeat eius quaerat temporibus ducimus necessitatibus, alias labore, magni architecto, cumque exercitationem soluta?&quot;</p>
                                 <div className="test-msg">
@@ -31,7 +29,6 @@ const Testimonial = (props) => {
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item interval={500}>
-                            {/* <img className="d-block w-100" src={img1} text="Second slide" /> */}
                             <Carousel.Caption className="ust-item">
                                 <p>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi in officia quidem dolorem unde nemo blanditiis placeat eius quaerat temporibus ducimus necessitatibus, alias labore, magni architecto, cumque exercitationem soluta?&quot;</p>
                                 <div className="test-msg">

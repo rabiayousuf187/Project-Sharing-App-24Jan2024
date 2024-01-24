@@ -1,7 +1,0 @@
-{"users":[
-{"id":11,"firstName":"Marcel","email":"acharlota@liveinternet.ru"},
-{"id":12,"firstName":"Assunta","email":"rhallawellb@dropbox.com"},
-{"id":13,"firstName":"Trace","email":"lgribbinc@posterous.com"},
-{"id":14,"firstName":"Enoch","email":"mturleyd@tumblr.com"},
-{"id":15,"firstName":"Jeanne","email":"kminchelle@qq.com"}]
-,"total":100,"skip":10,"limit":5}

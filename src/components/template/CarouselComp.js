@@ -1,6 +1,5 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-// import img from 'react-bootstrap/img';
 import bannerImg from '../../img/banner.jpg'
 
 function CarouselComp(props) {

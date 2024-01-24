@@ -3,7 +3,6 @@ import { Alert, Button, Grid, IconButton, InputAdornment, TextField } from "@mui
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 import { useSnackbar } from 'notistack';
 import { NavLink, useNavigate } from 'react-router-dom';
-import AuthService from '../../../services/auth';
 import axios from "axios";
 
 const Login = () => {

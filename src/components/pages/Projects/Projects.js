@@ -18,6 +18,7 @@ const Project = () => {
         let user = localStorage.getItem('user');
         console.log("At LOgin - USer status=== ", user)
 
+<<<<<<< HEAD
         // let { token, user } = JSON.parse(data);
         // if (!token) {
         //     console.log("No User Login")
@@ -27,6 +28,8 @@ const Project = () => {
         //     // console.log("Post BLog User Token == ", token)
             setToken(token);
 
+=======
+>>>>>>> be64a6dd07bc94a2f2b927d06e8c0125b0b79999
             try {
                 axios
                     .get(
@@ -63,60 +66,16 @@ const Project = () => {
                     closeSnackbar();
                 }, 2000);
             }
+<<<<<<< HEAD
             // setName(user.username);
             //   setToken(user.user.token)
             // navigate(`/auth`);
+=======
+            
+>>>>>>> be64a6dd07bc94a2f2b927d06e8c0125b0b79999
         // }
     }, [newProject]);
 
-
-    // useEffect(() => {
-    //     if (userId && token) {
-    //         try {
-    //             axios
-    //                 .post(
-    //                     `http://localhost:5000/Projects/getAllProjects`,
-    //                     {},
-    //                     {
-    //                         headers: {
-    //                             authorization: `Bearer ${token}`,
-    //                             'Accept': 'application/json',
-    //                             'Content-Type': 'application/json',
-    //                         },
-    //                     }
-    //                 )
-    //                 .then((res) => {
-    //                     console.log("GET A:LL Projects response ===", res);
-    //                     console.log("user Projects ==== ", res.data);
-    //                     if (res.status === 200) {
-    //                         console.log("Successfully get All Projects");
-    //                         setUserProjects(res.data.data);
-    //                         enqueueSnackbar(res.data.message, { variant: 'success' });
-    //                         setTimeout(() => {
-    //                             closeSnackbar(); // Close the snackbar manually after a duration
-    //                         }, 2000);
-    //                         localStorage.removeItem("newProject");
-    //                     }
-    //                 })
-    //                 .catch((error) => {
-    //                     if (error.response) {
-    //                         console.log("Error in Blog Getting by User ID!", error.response.status, error.response.data.message);
-    //                         setProjectStatus(`Blog Getting by User ID failed with status ${error.response.status}: ${error.response.data.message}`);
-    //                     } else if (error.request) {
-    //                         setProjectStatus('No response received from the server');
-    //                     } else {
-    //                         setProjectStatus(`Error: ${error.message}`);
-    //                     }
-    //                 });
-    //         } catch (e) {
-    //             console.log("Error === ", e);
-    //             enqueueSnackbar("Something went wrong.", { variant: 'error' });
-    //             setTimeout(() => {
-    //                 closeSnackbar();
-    //             }, 2000);
-    //         }
-    //     }
-    // }, [userId, token, enqueueSnackbar, closeSnackbar]);
 
     return (
         <>

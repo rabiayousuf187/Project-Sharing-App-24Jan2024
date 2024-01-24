@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import AuthService from '../services/auth';
 
 const UnAuthGuard = ({ component }) => {
     const [status, setStatus] = useState(false);
