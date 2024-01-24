@@ -4,7 +4,6 @@ import NavbarComp from './template/NavbarComp';
 import AuthFooter from './template/AuthFooter';
 
 const Authlayout = ({ component }) => {
-    // console.log("AUTH LAYOUT COMP === ", component)
     return (
         <>
             <Container fluid style={{ background: '#2b3035', marginBottom: '50px' }}>
