@@ -19,8 +19,6 @@ const UnAuthRoutes = [
   <Route key="About" path="/about" element={<UnAuthGuard component={<Layout component={<About/>}/>}/>} />,
   <Route key="Contact" path="/contact" element={<UnAuthGuard component={<Layout component={<Contact/>}/>}/>} />,
 
-
-
 ];
 
 
